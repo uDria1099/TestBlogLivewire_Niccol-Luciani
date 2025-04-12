@@ -16,7 +16,7 @@ class ServiceSeeder extends Seeder
         $services = [
             ['title'=>'spa', 'description'=>'bell massaggino NO 18+'],
             ['title'=>'trekking', 'description'=>'camminata sfondapolmoni'],
-            ['title'=>'arceria', 'desription'=>'occhio a chi prendi'],
+            ['title'=>'arceria', 'description'=>'occhio a chi prendi'],
             ['title'=>'yoga', 'description'=>'ti rompiamo le articolazioni'],
             ['title'=>'meditazione', 'description'=>'credici di rilassarti']
         ];
