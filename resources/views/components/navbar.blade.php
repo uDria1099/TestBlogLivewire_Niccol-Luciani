@@ -19,6 +19,9 @@
           </li>
           @auth
           <li class="nav-item">
+            <a class="nav-link mx-1" href="{{route('trip.create')}}">crea Viaggio</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link mx-1" href="#">utente:<span class="fw-bold">{{Auth::user()->name}}</span></a>
           </li>
           <li class="nav-item">

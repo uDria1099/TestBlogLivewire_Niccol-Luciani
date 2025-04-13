@@ -3,11 +3,13 @@
 namespace App\Models;
 
 use App\Models\User;
+use App\Models\Service;
 use App\Models\Continent;
 use Illuminate\Database\Eloquent\Model;
 
 class Travel extends Model
-{
+{   
+    protected $table = 'travels';
     protected $fillable = ['title', 'description', 'image', 'continent_id'];
 
     public function continent(){
@@ -21,4 +23,5 @@ class Travel extends Model
     public function services(){
         return $this->belongsToMany(Service::class);
     }
+    
 }

@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Models\Travel;
 use Illuminate\Database\Eloquent\Model;
 
 class Service extends Model
