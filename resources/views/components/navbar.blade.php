@@ -14,9 +14,6 @@
             <a class="nav-link mx-1" href="{{route('login')}}">login</a>
           </li>
           @endguest
-          <li class="nav-item">
-            <a class="nav-link mx-1" href="#">3</a>
-          </li>
           @auth
           <li class="nav-item">
             <a class="nav-link mx-1" href="{{route('trip.create')}}">crea Viaggio</a>
